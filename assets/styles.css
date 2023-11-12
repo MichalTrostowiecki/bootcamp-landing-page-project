@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #5a4f4f;
+}
+
+/* ---------- Header section ---------- */
+header {
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(20, 86, 20);
+    border-bottom: solid 10px rgb(214, 165, 149);
+    
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ---------- Main section ---------- */
+main {
+    padding: 60px 0;
+}
+
+section p {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+.contact-me {
+    padding: 40px;
+    background-color: bisque;
+    border-top: solid 5px rgb(214, 165, 149);
+}
+
+form {
+    margin:  0 auto;
+    width: 500px;
+}
+
+.form-name,
+.form-email {
+    padding: 5px;
+}
+
+label {
+    display: inline-block;
+}
+
+input {
+    width: 300px;
+    display: inline-block;
+}
+
+
+button {
+    width: 100px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* ---------- Footer section ---------- */
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(20, 86, 20);
+    color: white;
+    text-align: center;
+    border-bottom: solid 10px #5a4f4f;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+}
+
